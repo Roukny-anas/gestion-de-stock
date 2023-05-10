@@ -9,8 +9,16 @@ Pour réaliser ce projet, nous utiliserons le langage de programmation Python po
 
 ## Developpement:
 ![1](https://github.com/Roukny-anas/gestion-de-stock/assets/121769827/80084244-d576-480c-8253-ba02177d0f7a)
-![2](https://github.com/Roukny-anas/gestion-de-stock/assets/121769827/168b1420-ca5b-45ee-b838-1de0ccf032c2)
+Cette classe Python loginscreen est une définition pour une interface graphique d'écran de connexion utilisant PyQt5.
 
+La méthode loginfunction récupère le nom d'utilisateur et le mot de passe entrés par l'utilisateur et les compare à une valeur d'authentification enregistrée en base de données. Si l'utilisateur entre des champs vides, un message d'erreur est affiché. Si les identifiants sont corrects, un message de réussite est affiché et la boîte de dialogue est fermée. Sinon, un message d'erreur est affiché.
+
+La méthode gotoregistration affiche une nouvelle instance d'une interface graphique appelée registrationscreen en utilisant la méthode addWidget de l'objet Widget.
+
+![22](https://github.com/Roukny-anas/gestion-de-stock/assets/121769827/f4592a1e-2289-4b7d-bccf-f274ef231564)
+La fonction registrationfunction est appelée lorsque le bouton pushButton est cliqué. Elle récupère les informations d'inscription de l'utilisateur à partir des champs de texte lineEdit et vérifie que les champs sont remplis. Elle vérifie ensuite si les mots de passe correspondent et si le mot de passe contient au moins 8 caractères et un caractère spécial. Enfin, si tout est valide, elle se connecte à une base de données SQLite, insère les informations de l'utilisateur et ferme la connexion.
+
+La fonction gotologin est appelée lorsque le bouton pushButton_2 est cliqué. Elle crée une instance de la classe loginscreen et affiche la page de connexion en réduisant l'index de la page actuelle dans le widget Widget.
 
 ## Conclusion :
 

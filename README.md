@@ -14,6 +14,10 @@ Diagramme cas d'utilisation
 Diagramme de class 
 ![WhatsApp Image 2023-05-11 at 01 25 47 (1)](https://github.com/Roukny-anas/gestion-de-stock/assets/121769827/e0100b42-d795-4617-9d42-e08e7b7c5237)
 
+
+
+
+
 ![1](https://github.com/Roukny-anas/gestion-de-stock/assets/121769827/80084244-d576-480c-8253-ba02177d0f7a)
 Cette classe Python loginscreen est une définition pour une interface graphique d'écran de connexion utilisant PyQt5.
 

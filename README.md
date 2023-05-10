@@ -16,6 +16,7 @@ La méthode loginfunction récupère le nom d'utilisateur et le mot de passe ent
 La méthode gotoregistration affiche une nouvelle instance d'une interface graphique appelée registrationscreen en utilisant la méthode addWidget de l'objet Widget.
 
 ![22](https://github.com/Roukny-anas/gestion-de-stock/assets/121769827/f4592a1e-2289-4b7d-bccf-f274ef231564)
+Cette partie de code correspond à une classe registrationscreen qui est une boîte de dialogue (QDialog).
 La fonction registrationfunction est appelée lorsque le bouton pushButton est cliqué. Elle récupère les informations d'inscription de l'utilisateur à partir des champs de texte lineEdit et vérifie que les champs sont remplis. Elle vérifie ensuite si les mots de passe correspondent et si le mot de passe contient au moins 8 caractères et un caractère spécial. Enfin, si tout est valide, elle se connecte à une base de données SQLite, insère les informations de l'utilisateur et ferme la connexion.
 
 La fonction gotologin est appelée lorsque le bouton pushButton_2 est cliqué. Elle crée une instance de la classe loginscreen et affiche la page de connexion en réduisant l'index de la page actuelle dans le widget Widget.

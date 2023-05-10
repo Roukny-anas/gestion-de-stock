@@ -8,7 +8,8 @@ Les principales fonctionnalités de l'application seront la création de comptes
 Pour réaliser ce projet, nous utiliserons le langage de programmation Python pour l'implémentation, une base de données pour stocker les informations des produits et des utilisateurs, et la bibliothèque PyQT5 pour créer l'interface utilisateur conviviale.
 
 ## Developpement:
-![p1](https://github.com/Roukny-anas/gestion-de-stock/assets/121769827/54e7760b-7df7-4dbb-9cc5-a5574d5bfbb1)
+![1](https://github.com/Roukny-anas/gestion-de-stock/assets/121769827/80084244-d576-480c-8253-ba02177d0f7a)
+![2](https://github.com/Roukny-anas/gestion-de-stock/assets/121769827/168b1420-ca5b-45ee-b838-1de0ccf032c2)
 
 
 ## Conclusion :

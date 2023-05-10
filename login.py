@@ -14,7 +14,6 @@ class loginscreen(QDialog):
         self.pushButton.clicked.connect(self.loginfunction)
 
 
-
     def loginfunction(self):
         username = self.lineEdit.text()
         password = self.lineEdit_2.text()
@@ -37,10 +36,7 @@ class loginscreen(QDialog):
             else:
                 self.label_2.setText("Invalid username or password.") 
 
-                                                                    
-    
-      
-
+                                                                
     def gotoregistration(self):
         registration = registrationscreen()
         Widget.addWidget(registration)
@@ -59,42 +55,30 @@ class registrationscreen(QDialog):
         self.pushButton_2.clicked.connect(self.gotologin)
         self.pushButton.clicked.connect(self.registrationfunction)
 
-
-
     def registrationfunction(self):
             username = self.lineEdit_2.text()
             email =  self.lineEdit.text()
             pass1 = self.lineEdit_4.text()
             pass2 = self.lineEdit_3.text()
-
             if len(username)==0 or len(pass1)==0 or len(pass2)==0 or len(email)==0 :
                 self.label_2.setText("Please fill in all inputs.")
-
             elif pass1 != pass2:
                 self.label_2.setText("Passwords do not match.")
-
             elif len(pass1) < 8:
                 self.label_2.setText("Password should have at least 8 characters.")
-            
             elif not any(char in '!@#$%^&*()-+' for char in pass1):
                 self.label_2.setText("Password should have at least one special character.")
-
             elif email.endswith("@gmail.com") == False:
                 self.label_2.setText("Invalid email address.")
-
             else:
                 conn = sqlite3.connect("shop_data.db")
                 cur = conn.cursor()
                 user_info = [username , pass1 , email]
                 cur.execute('INSERT INTO login_info (username,password,email) VALUES(?,?,?)',user_info)
                 self.label_2.setText("")
-                self.gotoSearch()
                 conn.commit()
                 conn.close()
-                self.gotoproduct()
-                
-              
-
+    
 
     def gotologin(self):
         login = loginscreen()

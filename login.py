@@ -20,9 +20,7 @@ class loginscreen(QDialog):
 
         if len(username)==0 or len(password)==0:
             self.label_2.setText("Please input all fields.")
-        elif username == "admin" and password == "admin":
-            self.label_2.setText("")
-            
+       
         else:
             conn = sqlite3.connect("shop_data.db")
             cur = conn.cursor()

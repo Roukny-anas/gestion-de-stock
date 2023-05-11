@@ -9,11 +9,10 @@ Pour réaliser ce projet, nous utiliserons le langage de programmation Python po
 
 ## Developpement:
 Diagramme cas d'utilisation 
-![WhatsApp Image 2023-05-11 at 01 25 47](https://github.com/Roukny-anas/gestion-de-stock/assets/121769827/d3a0baa9-390b-45b4-b9d6-b61e82c560cb)
-
-Diagramme de class 
 ![WhatsApp Image 2023-05-11 at 01 25 47 (1)](https://github.com/Roukny-anas/gestion-de-stock/assets/121769827/e0100b42-d795-4617-9d42-e08e7b7c5237)
 
+Diagramme de class 
+![WhatsApp Image 2023-05-11 at 01 25 47](https://github.com/Roukny-anas/gestion-de-stock/assets/121769827/d3a0baa9-390b-45b4-b9d6-b61e82c560cb)
 
 
 

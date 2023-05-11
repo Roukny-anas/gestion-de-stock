@@ -16,8 +16,7 @@ Diagramme de class
 
 
 
-
-![1](https://github.com/Roukny-anas/gestion-de-stock/assets/121769827/80084244-d576-480c-8253-ba02177d0f7a)
+![777](https://github.com/Roukny-anas/gestion-de-stock/assets/121769827/331c9056-bff6-47f2-962a-8fd88aa3bbfb)
 Cette classe Python loginscreen est une définition pour une interface graphique d'écran de connexion utilisant PyQt5.
 
 La méthode loginfunction récupère le nom d'utilisateur et le mot de passe entrés par l'utilisateur et les compare à une valeur d'authentification enregistrée en base de données. Si l'utilisateur entre des champs vides, un message d'erreur est affiché. Si les identifiants sont corrects, un message de réussite est affiché et la boîte de dialogue est fermée. Sinon, un message d'erreur est affiché.
